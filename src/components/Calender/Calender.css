@@ -1,0 +1,87 @@
+.selected-date {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.selected-date span {
+    font-size: 20px;
+}
+
+.calendar-container {
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 400px;
+    height: 480px;
+    margin-bottom: 50px;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.calendar-header h2 {
+    color: #333;
+}
+
+.year-arrow-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.arrow-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.calender-table {
+    padding: 20px;
+}
+
+.calender-head {
+    text-align: center;
+    color: rgb(252, 98, 42);
+    padding-bottom: 20px;
+}
+
+.table-body td {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    border: 1px solid #f5f5f5;
+}
+
+
+.table-body td:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+    border: 1px solid #999;
+}
+
+#today {
+    background-color: rgb(252, 98, 42);
+    color: white;
+    font-weight: 600;
+}

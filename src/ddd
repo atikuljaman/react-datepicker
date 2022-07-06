@@ -1,0 +1,12 @@
+- Show the current month calendar with current day highlighted
+- Provide dropdown to select month and year (2000-2050)
+- On selection of month/ year, display the dates accordingly
+- On click of a date, set as start date
+- On click of second date, set as end date
+- Validate end date > start date
+- Highlight selected range
+
+Bonus features
+
+- On selection of third date, reset range and start fresh
+- Allow selection of multiple dates, without range (eg, 21/4, 24/4, 25/4)
